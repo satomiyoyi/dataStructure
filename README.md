@@ -1,2 +1,2 @@
 # dataStructure
-data strcuture javascript implementation
+js 实现数据结构以及算法练习
