@@ -17,7 +17,7 @@ function iterateCreateList(arr) {
 
 
 // 循环方法
-function loopCreateList(arr) {
+let loopCreateList = function (arr) {
     let head = null;
     let tail = null;
     for (let item of arr) {
@@ -31,5 +31,10 @@ function loopCreateList(arr) {
     }
     return head;
 }
-console.log(iterateCreateList([1, 2, 3]))
-console.log(loopCreateList([1, 2, 3]))
+
+// module.exports = {
+//     NodeList,
+//     loopCreateList
+// };
+// console.log(iterateCreateList([1, 2, 3]))
+// console.log(loopCreateList([1, 2, 3]))
